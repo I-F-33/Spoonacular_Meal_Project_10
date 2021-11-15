@@ -4,25 +4,18 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Week {
 
-	@JsonProperty("monday")
 	public DayInfo monday;
 	
-	@JsonProperty("tuesday")
 	public DayInfo tuesday;
 	
-	@JsonProperty("wednesday")
 	public DayInfo wednesday;
 	
-	@JsonProperty("thursaday")
 	public DayInfo thursday;
 	
-	@JsonProperty("friday")
 	public DayInfo friday;
 	
-	@JsonProperty("saturday")
 	public DayInfo saturday;
 	
-	@JsonProperty("sunday")
 	public DayInfo sunday;
 
 	public DayInfo getMonday() {
