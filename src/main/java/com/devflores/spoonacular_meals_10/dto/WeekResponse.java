@@ -1,11 +1,7 @@
 package com.devflores.spoonacular_meals_10.dto;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-
-
 public class WeekResponse {
 
-	//@JsonProperty("week")
 	private Week week;
 
 	public Week getWeek() {

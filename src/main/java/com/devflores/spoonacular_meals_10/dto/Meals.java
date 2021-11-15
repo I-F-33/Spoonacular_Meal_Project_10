@@ -3,15 +3,10 @@ package com.devflores.spoonacular_meals_10.dto;
 public class Meals {
 
 	private Integer id;
-
 	private String imageType;
-
 	private String title;
-
 	private Integer readyInMinutes;
-
 	private Integer servings;
-
 	private String sourceUrl;
 
 	public Integer getId() {

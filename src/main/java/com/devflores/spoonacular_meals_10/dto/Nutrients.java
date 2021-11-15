@@ -1,19 +1,10 @@
 package com.devflores.spoonacular_meals_10.dto;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-
 public class Nutrients {
 
-//	@JsonProperty("calories")
 	private Double calories;
-	
-//	@JsonProperty("protein")
 	private Double protein;
-	
-	//@JsonProperty("fat")
 	private Double fat;
-	
-//	@JsonProperty("carbohydrates")
 	private Double carbohydrates;
 	
 	public Double getCalories() {

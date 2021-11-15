@@ -1,18 +1,17 @@
 package com.devflores.spoonacular_meals_10.dto;
 
-import java.util.ArrayList;
+import java.util.List;
 
 public class DayInfo {
 
-	private ArrayList<Meals> meals;
-
+	private List<Meals> meals;
 	private Nutrients nutrients;
 
-	public ArrayList<Meals> getMeals() {
+	public List<Meals> getMeals() {
 		return meals;
 	}
 
-	public void setMeals(ArrayList<Meals> meals) {
+	public void setMeals(List<Meals> meals) {
 		this.meals = meals;
 	}
 

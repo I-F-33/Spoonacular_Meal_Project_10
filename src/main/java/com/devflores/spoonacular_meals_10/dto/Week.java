@@ -1,23 +1,15 @@
 package com.devflores.spoonacular_meals_10.dto;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-
 public class Week {
 
 	public DayInfo monday;
-	
 	public DayInfo tuesday;
-	
 	public DayInfo wednesday;
-	
 	public DayInfo thursday;
-	
 	public DayInfo friday;
-	
 	public DayInfo saturday;
-	
 	public DayInfo sunday;
-
+	
 	public DayInfo getMonday() {
 		return monday;
 	}
